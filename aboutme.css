@@ -1,0 +1,84 @@
+/* aboutme.css */
+
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(./fog.jpg.jpg);
+}
+
+/* Style the header section */
+header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Style the sections */
+.section {
+    padding: 10px;
+}
+
+.section h2 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #46d4c9; /* Dark text color */
+    margin-bottom: 10px;
+}
+
+/* Style the skills list */
+.section ul {
+    list-style-type: none;
+    padding: 0;
+  
+}
+
+.section ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(255, 254, 254)
+}
+
+/* Style the hobbies and projects descriptions */
+.section p {
+    font-size: 16px;
+    color: #666; /* Medium text color */
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Style the project titles */
+.project h3 {
+    font-size: 20px;
+    color: #333; /* Dark text color */
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333; /* Dark background color */
+    color: #f3e6e6; /* Text color */
+    padding: 10px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Add hover effect for project titles */
+.project h3:hover {
+    color: #007BFF; /* Blue color on hover */
+}

@@ -1,0 +1,49 @@
+body{
+    background-image: url(./fog.jpg.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the content on the left */
+.content {
+    width: 70%; /* Adjust this to control the content width */
+}
+
+
+/* Style the photo on the right */
+.photo {
+    width: 34%; /* Adjust this to control the photo width */
+    margin-right: 10px; /* Adjust this to control the space between content and photo */
+}
+
+.profile{
+    color: wheat;
+    font-size: 80px;
+    position: relative;
+    left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#profilePara{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+}
+
+#moreabout{
+    color: rgb(214, 189, 45);
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+    bottom: 270px;
+}
+#moreabout::after {
+    content: "\2192"; /* Right arrow HTML entity */
+    margin-left: 5px; /* Adjust the spacing between the text and arrow */
+}

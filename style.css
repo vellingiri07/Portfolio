@@ -8,16 +8,14 @@ body{
     align-items: center;
 }
 
-/* Style the content on the left */
 .content {
-    width: 70%; /* Adjust this to control the content width */
+    width: 70%; 
 }
 
 
-/* Style the photo on the right */
 .photo {
-    width: 34%; /* Adjust this to control the photo width */
-    margin-right: 10px; /* Adjust this to control the space between content and photo */
+    width: 34%; 
+    margin-right: 10px; 
 }
 
 .profile{
@@ -44,6 +42,6 @@ body{
     bottom: 270px;
 }
 #moreabout::after {
-    content: "\2192"; /* Right arrow HTML entity */
-    margin-left: 5px; /* Adjust the spacing between the text and arrow */
+    content: "\2192"; 
+    margin-left: 5px; 
 }

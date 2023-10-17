@@ -1,4 +1,4 @@
-
+à
 body {
     margin: 0;
     padding: 0;
@@ -48,7 +48,7 @@ header p {
 
 .section p {
     font-size: 16px;
-    color: #666; /* Medium text color */
+    color: #666; 
     margin-bottom: 10px;
     color: white;
 }
@@ -56,7 +56,7 @@ header p {
 
 .project h3 {
     font-size: 20px;
-    color: #333; /* Dark text color */
+    color: #333; 
     margin-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -64,8 +64,8 @@ header p {
 
 footer {
     text-align: center;
-    background-color: #333; /* Dark background color */
-    color: #f3e6e6; /* Text color */
+    background-color: #333; 
+    color: #f3e6e6; 
     padding: 10px;
 }
 
@@ -74,5 +74,5 @@ footer p {
 }
 
 .project h3:hover {
-    color: #007BFF; /* Blue color on hover */
+    color: #007BFF; 
 }

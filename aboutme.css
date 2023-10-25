@@ -1,117 +1,119 @@
 
 body {
 
-     background-image: url(./fog.jpg);
+    background-image: url(./fog.jpg);
 }
 
 header {
-    background-color: #333; 
-    color: #fff; 
-    text-align: center;
-    padding: 10px;
+   background-color: #333; 
+   color: #fff; 
+   text-align: center;
+   padding: 10px;
 }
 
 header h1 {
-    font-size: 36px;
-    
+   font-size: 36px;
+   
 }
 
 header p {
-    font-size: 18px;
+   font-size: 18px;
 }
 
 .section {
-    padding: 10px;
+   padding: 10px;
 }
 
 .section h2 {
-    font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #46d4c9; 
-    margin-bottom: 10px;
+   font-size: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #46d4c9; 
+   margin-bottom: 10px;
 }
 
 
 .section ul {
-    list-style-type: none;
-    padding: 0;
-  
+   list-style-type: none;
+   padding: 0;
+ 
 }
 
 .section ul li {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: rgb(255, 254, 254)
+   font-size: 18px;
+   margin-bottom: 10px;
+   color: rgb(255, 254, 254)
 }
 
 .section p {
-    font-size: 16px;
-    color: #666; 
-    margin-bottom: 10px;
-    color: white;
+   font-size: 16px;
+   color: #666; 
+   margin-bottom: 10px;
+   color: white;
 }
 
 
 .project h3 {
-    font-size: 20px;
-    color: #333; 
-    margin-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   color: #333; 
+   margin-top: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 footer {
-    text-align: center;
-    background-color: #333; 
-    color: #f3e6e6; 
-    padding: 10px;
+   text-align: center;
+   background-color: #333; 
+   color: #f3e6e6; 
+   padding: 10px;
 }
 
 footer p {
-    font-size: 16px;
+   font-size: 16px;
 }
 
 .project h3:hover {
-    color: #007BFF; 
+   color: #007BFF; 
 }
 
 .Download_button {
-  width: 160px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  cursor: pointer;
-  margin: 20px;
-  height: 55px;
-  text-align:center;
-  border: none;
-  background-size: 300% 100%;
-  border-radius: 50px;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+ width: 160px;
+ font-size: 16px;
+ font-weight: 600;
+ color: #fff;
+ cursor: pointer;
+ margin: 20px;
+ height: 55px;
+ text-align:center;
+ border: none;
+ background-size: 300% 100%;
+ border-radius: 50px;
+ moz-transition: all .4s ease-in-out;
+ -o-transition: all .4s ease-in-out;
+ -webkit-transition: all .4s ease-in-out;
+ transition: all .4s ease-in-out;
+ position: relative;
+ left:50%;
 }
 
 .Download_button:hover {
-  background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+ background-position: 100% 0;
+ moz-transition: all .4s ease-in-out;
+ -o-transition: all .4s ease-in-out;
+ -webkit-transition: all .4s ease-in-out;
+ transition: all .4s ease-in-out;
 }
 
 .Download_button:focus {
-  outline: none;
+ outline: none;
 }
 
 .Download_button {
-  background-image: linear-gradient(
-    to right,
-    #f5ce62,
-    #e43603,
-    #fa7199,
-    #e85a19
-  );
-  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+ background-image: linear-gradient(
+   to right,
+   #f5ce62,
+   #e43603,
+   #fa7199,
+   #e85a19
+ );
+ box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
